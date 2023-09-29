@@ -1,4 +1,4 @@
-lista = ['RENATO','SANDRA','CREUZA','FERNANDO','DUDU','VANDA','GUIMA','RUBIANA','ANDRÉ','ANA JULIA','CAMILLE','RENATO','RENATO','RENATO']
+lista = ['RENATO','SANDRA','CREUZA','FERNANDO','DUDU','VANDA','WASHINGTON ALMEIDA','GUIMA','RUBIANA','ANDRÉ','ANA JULIA','CAMILLE','RENATO','RENATO','RENATO']
 
 # print(lista[::2])
 # print(dir(lista))
@@ -17,4 +17,5 @@ print(len(lista2))
 print(lista2.count('RENATO'))
 print(lista2.index('RENATO'))
 
-print(lista2.clear())
+lista2.sort()
+print(lista2)
