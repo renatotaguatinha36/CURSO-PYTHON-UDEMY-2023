@@ -16,3 +16,5 @@ lista2 = lista.copy()
 print(len(lista2))
 print(lista2.count('RENATO'))
 print(lista2.index('RENATO'))
+
+print(lista2.clear())
